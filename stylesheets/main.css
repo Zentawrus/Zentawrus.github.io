@@ -1,10 +1,22 @@
 #mozk {
-	font-size: 20px;
+	font-size: 50px;
 	color: #F879E0FF;
-    transition: font-size .3s;
-    margin: 0 auto;
+	text-align: center;
+    padding: 30px;
+    transition: .5s;
+    display: block;
 }
 
+#rap {
+    color: transparent;
+    transition: 1s;
+    text-align: center;
+    font-size: 100px;
+}
 #mozk:hover {
-    font-size: 300px;
+    color: transparent;
+}
+
+#mozk:hover+#rap {
+    color: #F879E0FF;
 }
