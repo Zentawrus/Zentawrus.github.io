@@ -1,5 +1,10 @@
 #mozk {
-	font-size: 300px;
+	font-size: 20px;
 	color: #F879E0FF;
+    transition: font-size .3s;
+    margin: 0 auto;
+}
 
+#mozk:hover {
+    font-size: 300px;
 }
