@@ -1,16 +1,19 @@
 #mozk {
 	font-size: 50px;
 	color: #F879E0FF;
-	text-align: center;
-    padding: 30px;
     transition: .5s;
+    position: absolute;
+    left: 350px;
+    margin: 0;
 }
 
 #rap {
+	font-size: 50px;
     color: transparent;
     transition: 1s;
-    text-align: center;
-    font-size: 100px;
+    position: relative;
+    left: 350px;
+    margin: 0;
 }
 
 #mozk:hover {
@@ -19,4 +22,8 @@
 
 #mozk:hover+#rap {
     color: #F879E0FF;
+}
+
+h1 {
+	display: inline;
 }
